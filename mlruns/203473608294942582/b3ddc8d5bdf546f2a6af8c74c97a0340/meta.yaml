@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/2do4triMINAR/Final-SL/mlruns/203473608294942582/b3ddc8d5bdf546f2a6af8c74c97a0340/artifacts
+end_time: 1774722536111
+entry_point_name: ''
+experiment_id: '203473608294942582'
+lifecycle_stage: active
+run_id: b3ddc8d5bdf546f2a6af8c74c97a0340
+run_name: XGBoost
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774722530319
+status: 3
+tags: []
+user_id: Lenovo

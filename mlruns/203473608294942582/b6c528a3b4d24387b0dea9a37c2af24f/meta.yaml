@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/2do4triMINAR/Final-SL/mlruns/203473608294942582/b6c528a3b4d24387b0dea9a37c2af24f/artifacts
+end_time: 1774722573369
+entry_point_name: ''
+experiment_id: '203473608294942582'
+lifecycle_stage: active
+run_id: b6c528a3b4d24387b0dea9a37c2af24f
+run_name: NaiveBayes
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774722568588
+status: 3
+tags: []
+user_id: Lenovo

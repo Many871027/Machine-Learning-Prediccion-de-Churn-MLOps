@@ -1,0 +1,10 @@
+artifact_location: file:///D:/2do4triMINAR/Final-SL/mlruns/203473608294942582/models/m-c1b6e7a9951c4c80839ebbeb732690bf/artifacts
+creation_timestamp: 1774722511622
+experiment_id: '203473608294942582'
+last_updated_timestamp: 1774722516698
+model_id: m-c1b6e7a9951c4c80839ebbeb732690bf
+model_type: null
+name: model
+source_run_id: 76b4f37722384b7998830b24f098b293
+status: 2
+status_message: null

@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/2do4triMINAR/Final-SL/mlruns/203473608294942582/e658575f78914387a53c53c64a339683/artifacts
+end_time: 1774722568483
+entry_point_name: ''
+experiment_id: '203473608294942582'
+lifecycle_stage: active
+run_id: e658575f78914387a53c53c64a339683
+run_name: SVM
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774722561914
+status: 3
+tags: []
+user_id: Lenovo

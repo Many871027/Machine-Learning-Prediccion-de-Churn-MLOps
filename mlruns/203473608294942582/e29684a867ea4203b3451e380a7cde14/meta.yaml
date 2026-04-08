@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/2do4triMINAR/Final-SL/mlruns/203473608294942582/e29684a867ea4203b3451e380a7cde14/artifacts
+end_time: 1774722544361
+entry_point_name: ''
+experiment_id: '203473608294942582'
+lifecycle_stage: active
+run_id: e29684a867ea4203b3451e380a7cde14
+run_name: KNN
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774722539080
+status: 3
+tags: []
+user_id: Lenovo
