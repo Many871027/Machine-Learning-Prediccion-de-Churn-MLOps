@@ -13,7 +13,7 @@ Plataforma MLOps *End-to-End* diseñada para predecir la fuga de clientes (Churn
 
 ---
 
-## 🛠️ 1. Instalación y Configuración Inicial
+## 1. Instalación y Configuración Inicial
 
 ### Clonar el repositorio y acceder a la terminal:
 ```bash
@@ -36,7 +36,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🔬 2. Entrenamiento y Sistema de Experimentación
+## 2. Entrenamiento y Sistema de Experimentación
 
 Nuestra arquitectura de MLOps compite automáticamente docenas de arquitecturas algorítmicas utilizando validación cruzada estratificada sobre `GridSearchCV`.
 
@@ -52,11 +52,11 @@ Una vez desencadenada la optimización, todas las métricas puras, el código, y
 ```powershell
 .\venv\Scripts\mlflow ui
 ```
-🌐 Navega a **[http://localhost:5000](http://localhost:5000)** y selecciona tu experimento vital `Churn_Prediction_Experiments`.
+ Navega a **[http://localhost:5000](http://localhost:5000)** y selecciona tu experimento vital `Churn_Prediction_Experiments`.
 
 ---
 
-## ⚙️ 3. Integración a Producción
+## 3. Integración a Producción
 
 Cuando hayas validado el modelo asiduamente (observado objetivamente a través de MLflow), actualiza el perfil base embebido en `src/model_pipeline.py`. Después compila tu contenedor nativo con:
 
@@ -67,7 +67,7 @@ Cuando hayas validado el modelo asiduamente (observado objetivamente a través d
 
 ---
 
-## 🌐 4. Despliegue del Sistema de Inferencia Corporativo (FastAPI)
+## 4. Despliegue del Sistema de Inferencia Corporativo (FastAPI)
 
 Abre un canal seguro levantando a través del servidor especializado Uvicorn:
 ```powershell
@@ -76,8 +76,8 @@ Abre un canal seguro levantando a través del servidor especializado Uvicorn:
 
 ### Swagger UI y Pruebas Unitarias
 Navega inmediatamente a tu módulo de validación visual e interceptación RESTful:
-👉 **[http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)**
+ **[http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)**
 
 Tendrás 2 micro-sistemas listos a detonación directa:
-- 📊 **`GET /metrics`**: Extraerá de forma paralela en la web la tabla oficial telemetríca incrustada en el Tracking URI de MLflow para auditar ordenamientos AUC_ROC.
-- 🎯 **`POST /predict`**: Un endpoint vivo transaccional en JSON. Alimenta sus `CustomerFeatures` default, apóyate en su procesador embebido internamente, y obtén un logeo vivo en formato binario del comportamiento financiero esperado, resultando en clasificaciones atípicas (ej. `{"churn": 1, "probability": 0.776}`).
+- **`GET /metrics`**: Extraerá de forma paralela en la web la tabla oficial telemetríca incrustada en el Tracking URI de MLflow para auditar ordenamientos AUC_ROC.
+- **`POST /predict`**: Un endpoint vivo transaccional en JSON. Alimenta sus `CustomerFeatures` default, apóyate en su procesador embebido internamente, y obtén un logeo vivo en formato binario del comportamiento financiero esperado, resultando en clasificaciones atípicas (ej. `{"churn": 1, "probability": 0.776}`).
