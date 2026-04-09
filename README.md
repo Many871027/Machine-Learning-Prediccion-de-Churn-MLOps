@@ -1,8 +1,8 @@
-# 🚀 MLOps Telco Churn Prediction System
+#  MLOps Telco Churn Prediction System
 
 Plataforma MLOps *End-to-End* diseñada para predecir la fuga de clientes (Churn) utilizando modelos experimentales paramétricos (XGBoost, Random Forest, SVM, etc.) optimizados hiper-paramétricamente con estrategias robustas contra el desbalanceo estructural de clases (SMOTE, Pipelines Imblearn). El ecosistema está nativamente acoplado a un servidor de observabilidad de hiperparámetros (MLflow) y a un microservicio expuesto por Pydantic y FastAPI.
 
-## 📂 Estructura del Nodo del Proyecto
+##  Estructura del Nodo del Proyecto
 
 - `app/`: Aplicación backend FastAPI para inferencia corporativa asíncrona en producción.
 - `src/`: Tuberías ETL de datos (Data Pipelines) modulares y rutinas lógicas de iteración.
